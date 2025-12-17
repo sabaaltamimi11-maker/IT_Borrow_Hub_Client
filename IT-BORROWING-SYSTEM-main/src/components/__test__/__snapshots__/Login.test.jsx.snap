@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginPage Component Tests Snapshot of the UI Should match the UI Mock 1`] = `
+<div>
+  <div
+    style="min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px;"
+  >
+    <div
+      class="container"
+      style="max-width: 500px;"
+    >
+      <div
+        class="modern-card card"
+      >
+        <div
+          class="p-4 card-body"
+        >
+          <div
+            class="text-center mb-4"
+          >
+            <h2
+              class="fw-bold"
+              style="color: rgb(102, 126, 234);"
+            >
+              <i
+                class="bi bi-box-arrow-in-right me-2"
+              />
+              Login
+            </h2>
+            <p
+              class="text-muted"
+            >
+              Welcome back! Please login to continue
+            </p>
+          </div>
+          <form
+            class=""
+            novalidate=""
+          >
+            <div
+              class="mb-3 mb-3"
+            >
+              <label
+                class="fw-bold form-label"
+              >
+                Email Address
+              </label>
+              <input
+                aria-invalid="false"
+                class="modern-input form-control"
+                placeholder="Enter your email"
+                type="email"
+                value=""
+              />
+            </div>
+            <div
+              class="mb-4 mb-3"
+            >
+              <label
+                class="fw-bold form-label"
+              >
+                Password
+              </label>
+              <input
+                aria-invalid="false"
+                class="modern-input form-control"
+                placeholder="Enter your password"
+                type="password"
+                value=""
+              />
+            </div>
+            <button
+              class="btn-gradient w-100 btn btn-primary"
+              type="submit"
+            >
+              Login
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
